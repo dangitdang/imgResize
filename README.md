@@ -8,11 +8,10 @@ The service takes in an image url and a desired size. It will resize the image, 
 ### Usage
 
 ``` 
-POST /[w]x[h]
+POST /:size
 ```
 #### Parameters
-w : width 
-h : height
+size : the desired size in [w]x[h] format e.g 100x100
 
 #### Arguments
 url : the image's URL
