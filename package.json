@@ -1,0 +1,20 @@
+{
+  "name": "imgResize",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.2.38",
+    "body-parser": "~1.13.2",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "gm": "^1.21.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "q": "^1.4.1",
+    "request": "^2.69.0",
+    "serve-favicon": "~2.3.0"
+  }
+}
